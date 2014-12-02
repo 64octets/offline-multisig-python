@@ -4,7 +4,7 @@ This simple tool can be used to sign a proposed multisig transaction
 (P2SH spend). You must already possess the associated extended public key
 (BIP32 wallet). The details of the transaction to be signed can
 either be fetched from Coinkite (based on a very long URL, provided
-with `--url` argument) or in a file, as download from the site.
+with `--url` argument) or in a file, as downloaded from the site.
 
 The signed output (which is a small JSON file) can be uploaded
 manually, but this program will by default upload the file to

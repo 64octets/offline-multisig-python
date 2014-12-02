@@ -54,7 +54,7 @@ def show_page(proposal):
 def do_signing(wallet, req_keys, inputs):
     # Do the actual signing. We are trusting the sighash values.
 
-    # Make a right subkey for each inputs
+    # Make the right subkey for each inputs
     wallets = {}
     for sp, (addr_check, ppair) in req_keys.items():
         w = wallet.subkey_for_path(sp)
